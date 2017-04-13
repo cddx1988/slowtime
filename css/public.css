@@ -1,0 +1,299 @@
+body{
+	height: 6663px;
+}
+.public-banner{
+	width: 1920px;
+	height: 513px;
+	background: url(../img/gongyi-banner.jpg) 0 0 no-repeat;
+	margin-top: 10px;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.public-main{
+	width: 1000px;
+	/*height: 8000px;*/
+	background-color: #fff;
+	padding: 0 5px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.jigoutuijian{
+	width: 100%;
+	height: 226px;
+	text-align: center;
+}
+/*item1*/
+.jigou-item1{
+	width: 100%;
+	height: 182px;
+	background: url(../img/jigou-item1.png) 0 0 no-repeat;
+	margin: 4px 0;
+}
+.item1-left{
+	width: 500px;
+	height: 120px;
+	line-height: 120px;
+}
+.item1-left img{
+	float: left;
+	margin: 25px 0;
+}
+.item1-left h3{
+	float: left;
+	color: #999;
+	font-weight: normal;
+	font-size: 16px;
+}
+.item1-right p{
+     width: 300px;
+     float: left;
+     padding-top: 10px;
+}
+.item1-right{
+	height: 120px;
+	margin-left: 47px;
+}
+.item1-right img{
+	float: left;
+}
+.item1-right h3{
+	float: left;
+	font-family: "Microsoft YaHei";
+	font-size: 18px;
+	margin-top: 10px;
+	width: 300px;
+    font-weight: normal;
+}
+
+
+
+/*item2*/
+.jigou-item2{
+	width: 100%;
+	height: 182px;
+	background: url(../img/jigou-item2.png) 0 0 no-repeat;
+	margin: -3px 0;
+}
+.item2-left{
+	width: 500px;
+}
+.item2-left h3,.item2-left p{
+	width: 290px;
+	float: left;
+	margin: 10px 4px;
+}
+.item2-left h3{
+	font-size: 18px;
+	font-weight: normal;
+	color: #666666;
+}
+.item2-left img{
+	margin: -40px 0;
+}
+.item2-right{
+	height: 120px;
+	line-height: 120px;
+    margin: 10px 0 0 30px;
+    text-align: left;
+    position: relative;
+}
+.item2-right h3{
+	float: left;
+	margin-left: 200px;
+	color: #999;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei";
+}
+.item2-right img{
+	float: left;
+	margin-top: 23px;
+	position: absolute;
+	left: 353px;
+}
+
+.gongyi-more{
+	width: 1000px;
+	height: 123px;
+	text-align: center;
+}
+/*志愿组织*/
+.zhiyuan{
+	width: 1000px;
+	height: 880px;
+}
+.zhiyuan-top{
+	height: 95px;
+	margin-top: 30px;
+}
+.zhiyuan-item li{
+	width: 245px;
+    height: 359px;
+    background: url(../img/zhiyuan-item-bg.png) no-repeat;
+    float: left;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 4px;
+    padding: 0;
+    text-align: left;
+}
+.zhiyuan-item a{
+	display: block;
+	margin-top: 30px;
+	margin-left: 33px;
+}
+.zhiyuan-item p{
+	width: 200px;
+    margin-left: 18px;
+    font-family: "SimSun" ! important;
+    font-size: 12px;
+    color: #aaa;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.zhiyuan-item p span{
+	line-height: 16px;
+}
+/*人物*/
+.person{
+    width: 1000px;
+
+}
+.person-top{
+	width: 100%;
+	height: 120px;
+}
+
+.person-item li{
+	width: 315px;
+    height: 320px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/person-item-bg.png);
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+.person-item li img{
+	margin-left: -60px;
+	margin-top: 37px;
+}
+.person-item p{
+	width: 240px;
+    margin: 30px;
+    padding: 0;
+}
+.person-item h5{
+	font-size: 18px;
+	color: #666;
+}
+/*活动*/
+.public-active-top{
+	width: 1000px;
+	height: 100px;
+	margin-bottom: 50px;
+}
+.active-item{
+	width: 980px;
+	height: 500px;
+	margin: 0 20px;
+}
+.active-item li{
+	width: 200px;
+	height: 500px;
+	float: left;
+	margin:0px 20px;
+}
+.active-item h5{
+	font-size: 14px;
+	color: #333333;
+	margin: 15px 0;
+}
+
+.active-item p,.active-item .pic{
+	margin: 10px 0;
+}
+.active-item .pic1{
+	font-family: "SimSun" ! important;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #565656;
+    width: 190px;
+}
+.active-item .pic1 span{
+	color: #acacac;
+}
+.public-active h3,.public-news h3{
+	color: #fff;
+	margin-left: 415px;
+	line-height: 25px;
+	text-align: center;
+	width: 180px;
+	height: 25px;
+	float: left;
+	background: url(../img/more_zixunbg02.png) 0 0 no-repeat;
+}
+.public-active h3:hover,.public-news h3:hover{
+	background: url(../img/more_zixunbg01.png) 0 0 no-repeat;
+}
+/*咨讯*/
+.public-news{
+	width: 1000px;
+	min-height: 400px;
+}
+.public-news-top{
+	margin: 50px;
+	text-align: center;
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 10px;
+}
+#news-item1 a,#news-item1 h2,#news-item1 p{
+	float: left;
+}
+#news-item1>a{
+    margin: 0 40px;
+}
+#news-item1 h2 a{
+	color: #94c945;
+
+}
+#news-item1 p{
+	width: 720px;
+	color: #acacac;
+}
+#news-item1 span{
+	width: 200px;
+	height: 70px;
+	float: left;
+	color: #acacac;
+}
+#news-item1 span,#news-item1 p{
+	margin-top: 12px;
+}
+#news-item1 ul{
+	float: right;
+	margin-top: 15px;
+	width: 240px;
+	margin-right: 6px;
+}
+#news-item1>ul>li{
+	width: 58px;
+	padding-left: 18px;
+}
+#news-item1>ul>li:first-child{
+	float: left;
+	height: 16px;
+	background: url(../img/review.png) 0 0 no-repeat;
+}
+#news-item1>ul>li:nth-child(2){
+	float: left;
+	height: 16px;
+	background: url(../img/review.png) 0 0 no-repeat;
+}
+#news-item1>ul>li:last-child{
+	float: left;
+	height: 16px;
+	background: url(../img/review.png) 0 0 no-repeat;
+}

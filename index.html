@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>慢生活</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- 顶部菜单 -->
+	<div class="head-bg center-box">
+		<div class="head-meau fr">    
+		    <ul>
+			    <li class="login"><a href="register.html">注册</a></li>
+			    <li class="login"><a href="login.html">登录</a></li>
+			    <li id="other1"><a href="#">加入收藏</a></li>
+			    <li id="other2"><a href="#">手机版</a></li>
+		    </ul>
+		</div>
+	</div>
+	<!-- 头部 -->
+	<div class="head center-box">
+		<div class="logo">
+			<a href="index.html"><img src="img/logo.jpg" alt=""></a>
+		</div>
+		<div class="search">
+			<input type="text" id="search-box">
+			<input type="submit" id="search-button" value="">
+		</div>
+	</div>
+	<!-- 菜单栏 -->
+	<div class="meau">
+		<div id="meau" class="center-box">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li class="space"></li>
+				<li class="slow"><a href="slowlife.html">慢生活</a>
+                    <ul class="slow-list">
+                    	<li><a href="#">手工</a></li>
+                    	<li><a href="#">家居</a></li>
+                    	<li><a href="#">美食</a></li>
+                    	<li><a href="#">花草</a></li>
+                    	<li><a href="#">创意</a></li>
+                    	<li><a href="#">风尚</a></li>
+                    	<li><a href="#">萌宠</a></li>
+                    	<li><a href="#">健康</a></li>
+                    	<li><a href="#">教育</a></li>
+                    </ul>
+				</li>
+				<li class="space"></li>
+				<li><a href="public.html">慢公益</a></li>
+				<li class="space"></li>
+				<li class=" slow"><a href="family.html">慢一族</a>
+                    <ul class="slow-list">
+                        <li><a href="#">驴行者</a></li>
+                        <li><a href="#">摄影人</a></li>
+                        <li><a href="#">她们</a></li>
+                        <li><a href="#">艺术者</a></li>
+                        <li><a href="#">名人</a></li>
+                        <li><a href="#">手工客</a></li>
+                        <li><a href="#">美食家</a></li>
+                        <li><a href="#">造梦者</a></li>
+                        <li><a href="#">慢友</a></li>
+                    </ul>
+                </li>
+				<li class="space"></li>
+				<li class="slow scenery"><a href="scenery.html">慢风景</a>
+                    <ul class="slow-list">
+                        <li><a href="#">旅行</a></li>
+                        <li><a href="#">摄影</a></li>
+                        <li><a href="#">客栈</a></li>
+                        <li><a href="#">村落</a></li>
+                        <li><a href="#">小店</a></li>
+                    </ul> 
+                </li>
+				<li class="space"></li>
+				<li class="slow art"><a href="art.html">慢文艺</a>
+                    <ul class="slow-list">
+                        <li><a href="#">电影</a></li>
+                        <li><a href="#">音乐</a></li>
+                        <li><a href="#">戏剧</a></li>
+                        <li><a href="#">阅读</a></li>
+                        <li><a href="#">随笔</a></li>
+                        <li><a href="#">插画</a></li>
+                        <li><a href="#">动漫</a></li>
+                    </ul>  
+                </li>
+				<li class="space"></li>
+				<li class="slow activity"><a href="active.html">慢活动</a>
+                    <ul class="slow-list">
+                        <li><a href="#">话题慢聊</a></li>
+                        <li><a href="#">活动推荐</a></li>
+                    </ul>
+                </li>
+				<li class="space"></li>
+				<li><a href="market.html">慢集市</a></li>
+				<li class="space"></li>
+				<li class="slow app"><a href="app.html">慢应用</a>
+                    <ul class="slow-list">
+                        <li><a href="#">慢下来</a></li>
+                        <li><a href="#">慢专题</a></li>
+                        <li><a href="#">慢画面</a></li>
+                    </ul>
+                </li>
+				<li class="space"></li>
+				<li class="slow deliver"><a href="mandi.html">慢递</a>
+                    <ul class="slow-list">
+                        <li><a href="#">慢递小店</a></li>
+                        <li><a href="#">甜品工坊</a></li>
+                        <li><a href="#">线上慢递</a></li>
+                        <li><a href="#">慢递查询</a></li>
+                    </ul>
+                </li>
+				<li class="space"></li>
+				<li><a href="find.html">发现美好</a></li>
+				<li class="space"></li>
+			</ul>
+		</div>
+	</div>
+	<!-- banner区 -->
+	<div class="banner center-box clearfix">
+		<a href="#"><div id="banner">
+		<div id="banner-info">28岁的他粉丝百万，不靠脸不炫富，只靠他想过自己喜欢的生活
+		</div>
+		</div>
+		</a>
+		<div id="banner-right">
+			<h2>有奖征集慢生活资讯</h2>
+			<ul>
+				<li id="article"><a href="#">文章发布</a></li>
+				<li id="active"><a href="#">活动发布</li>
+			</ul>
+			<div id="banner-box">
+				<div class="banner-box-title">
+					<a href="#" class="a active" id="topic">话题慢聊</a>
+					<a href="#" class="a" id="new">最新文章</a>
+					<span class="more">
+						<a href="#" class="more">更多...</a>
+					</span>
+				</div>
+				<div class="banner-box-items">
+					<ul id="banner-items">
+						<li><a href="#">
+                    想念一个人是什么感觉？                </a></li>
+						<li><a href="#">推荐一首你不会从歌单里...</a></li>
+						<li><a href="#">
+                    现在的你，最想把时间浪费...                </a></li>
+						<li><a href="#">                    说出你的故事                </a></li>
+						<li class="banner-items-spec"><a href="#">
+                    给未来恋人一封信                </a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	    </div>
+    <!-- 主要内容区 -->
+    <div class="content center-box clearfix">
+    <!-- 慢生活 -->
+    	<div class="life fl">
+    		<div class="index-box">
+    			<div class="life-title clearfix">
+    				<h2><a href="#">慢生活</a></h2>
+    				<div class="life-title-meau">
+    					<a href="#">手工</a><span>|</span>
+    					<a href="#">家居</a><span>|</span>
+    					<a href="#">美食</a><span>|</span>
+    					<a href="#">花草</a><span>|</span>
+    					<a href="#">创意</a><span>|</span>
+    					<a href="#">风尚</a><span>|</span>
+    					<a href="#">萌宠</a><span>|</span>
+    				</div>
+                     <a href="#" class="life-title-more">更多...</a>
+    			</div>
+    			<div class="index-content clearfix">
+    				<div class="index-content-left fl">
+    					<img src="img/index-img1.jpg" alt="">
+    					<p>家中摆一盆，大病小病全走光！赶紧收 </p>
+    				</div>
+    				<div class="index-content-right fr">
+    					<ul>
+    						<li>
+    							<div class="index-content-detail"><a href="#"><img src="img/life-img1.jpg" alt=""></a><a href="#">绽放少女心 日本花卉艺术</a><br><p>灯泡，一种你我日常生活中随...</p></div>
+    						</li>
+    						<li>
+    							<div class="index-content-detail"><a href="#"><img src="img/life-img2.jpg" alt=""></a><a href="#">绽放少女心 日本花卉艺术</a><br><p>灯泡，一种你我日常生活中随...</p></div>
+    						</li>
+    						<li>
+    							<div class="index-content-detail"><a href="#"><img src="img/life-img3.jpg" alt=""></a><a href="#">绽放少女心 日本花卉艺术</a><br><p>灯泡，一种你我日常生活中随...</p></div>
+    						</li>
+    						<li>
+    							<div class="index-content-detail"><a href="#"><img src="img/life-img4.jpg" alt=""></a><a href="#">绽放少女心 日本花卉艺术</a><br><p>灯泡，一种你我日常生活中随...</p></div>
+    						</li>
+    						<li>
+    							<div class="index-content-detail"><a href="#"><img src="img/life-img5.jpg" alt=""></a><a href="#">绽放少女心 日本花卉艺术</a><br><p>灯泡，一种你我日常生活中随...</p></div>
+    						</li>
+    					</ul>
+    					<div class="index-content-more">
+    						<p>加盟时间传递，实现梦想</p>
+    					</div>
+    				</div>
+    				<div class="life-nav">
+    					<span>TAG</span>
+    					<a href="#">慢生活</a>
+    					<a href="#">美食</a>
+    					<a href="#">创意</a>
+    					<a href="#">食谱</a>
+    					<a href="#">设计</a>
+    					<a href="#">居家</a>
+    					<a href="#">DIV</a>
+    					<a href="#">家居</a>
+    				</div>
+    			</div>
+    		</div>
+                <div class="life-footer">
+              	 <img src="img/banner_ad_02.jpg" alt="">
+                </div>
+    	</div>
+    	<!-- 慢一族 -->
+    	<div class="life fr">
+    		<div class="index-box">
+    			<div class="life-title clearfix">
+    				<h2><a href="#">慢一族</a></h2>
+    				<div class="life-title-meau">
+    					<a href="#">驴行者</a><span>|</span>
+    					<a href="#">摄影人</a><span>|</span>
+    					<a href="#">她们</a><span>|</span>
+    					<a href="#">艺术者</a><span>|</span>
+    					<a href="#">名人</a><span>|</span>
+    					<a href="#">手工客</a><span>|</span>
+    				</div>
+                     <a href="#" class="life-title-more">更多...</a>
+    			</div>
+    			<div class="index-content clearfix">
+    				<div class="index-content-left fl">
+    					<img src="img/index-img2.jpg" alt="">
+    					<p>教你10分钟极速早餐，让美味准时唤醒孩子！</p>
+    				</div>
+    				<div class="index-content-right fr">
+    					<ul>
+    						<li>
+    							<div class="index-content-detail"><a href="#"><img src="img/life-img6.jpg" alt=""></a><a href="#">绽放少女心 日本花卉艺术</a><br><p>灯泡，一种你我日常生活中随...</p></div>
+    						</li>
+    						<li>
+    							<div class="index-content-detail"><a href="#"><img src="img/life-img7.jpg" alt=""></a><a href="#">绽放少女心 日本花卉艺术</a><br><p>灯泡，一种你我日常生活中随...</p></div>
+    						</li>
+    						<li>
+    							<div class="index-content-detail"><a href="#"><img src="img/life-img8.jpg" alt=""></a><a href="#">绽放少女心 日本花卉艺术</a><br><p>灯泡，一种你我日常生活中随...</p></div>
+    						</li>
+    						<li>
+    							<div class="index-content-detail"><a href="#"><img src="img/life-img9.jpg" alt=""></a><a href="#">绽放少女心 日本花卉艺术</a><br><p>灯泡，一种你我日常生活中随...</p></div>
+    						</li>
+    						<li>
+    							<div class="index-content-detail"><a href="#"><img src="img/life-img10.jpg" alt=""></a><a href="#">绽放少女心 日本花卉艺术</a><br><p>灯泡，一种你我日常生活中随...</p></div>
+    						</li>
+    					</ul>
+    					<div class="index-content-more">
+    						<p>加盟时间传递，实现梦想</p>
+    					</div>
+    				</div>
+    				<div class="life-nav">
+    					<span>TAG</span>
+    					<a href="#">慢生活</a>
+    					<a href="#">美食</a>
+    					<a href="#">创意</a>
+    					<a href="#">食谱</a>
+    					<a href="#">设计</a>
+    					<a href="#">居家</a>
+    					<a href="#">DIV</a>
+    					<a href="#">家居</a>
+    				</div>
+    			</div>
+    		</div>
+              <div class="life-footer">
+              	 <img src="img/banner_ad_04.jpg" alt="">
+              </div>
+    	</div>
+    	<!-- 慢风景 -->
+    	<div class="life fl tru">
+    		<div class="index-box">
+    			<div class="life-title clearfix">
+    				<h2><a href="#">慢风景</a></h2>
+    				<div class="life-title-meau">
+    					<a href="#">手工</a><span>|</span>
+    					<a href="#">家居</a><span>|</span>
+    					<a href="#">美食</a><span>|</span>
+    					<a href="#">花草</a><span>|</span>
+    					<a href="#">创意</a><span>|</span>
+    					<a href="#">风尚</a><span>|</span>
+    					<a href="#">萌宠</a><span>|</span>
+    				</div>
+                     <a href="#" class="life-title-more">更多...</a>
+    			</div>
+    			<div class="index-content clearfix">
+    				<div class="index-content-left fl">
+    					<img src="img/index-img3.jpg" alt="">
+    					<p>家中摆一盆，大病小病全走光！赶紧收 </p>
+    				</div>
+    				<div class="index-content-right fr dota">
+    					<ul>
+    						<li>
+    							<div class="index-content-detail1"><p class="special">女摄影师告诉女儿：比起漂亮我更希望你能变得强大...</p></div>
+    						</li>
+    						<li>
+    							<div class="index-content-detail1"><p class="special">自然之美 红发女孩与小狐狸的童话世界</p></div>
+    						</li>
+    						<li>
+    							<div class="index-content-detail1"><p class="special">一家优雅地“生活”了40年的餐厅</p></div>
+    						</li>
+    						<li>
+    							<div class="index-content-detail1"><p class="special">温哥华片段</p></div>
+    						</li>
+    						<li>
+    							<div class="index-content-detail1"><p class="special">香港60年代至今的唯美海洋绝景 西环钟声泳棚...</p></div>
+    						</li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">老夏天</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1" style="border-bottom: none;"><p class="special">全球十大幸福国度 来一场说走就走的幸福之旅！</p></div>
+                            </li>
+    					</ul>
+    					<div class="index-content-more">
+    						<p>邂逅慢专题</p>
+    					</div>
+    				</div>
+    				<div class="life-nav">
+    					<span>TAG</span>
+    					<a href="#">慢生活</a>
+    					<a href="#">美食</a>
+    					<a href="#">创意</a>
+    					<a href="#">食谱</a>
+    					<a href="#">设计</a>
+    					<a href="#">居家</a>
+    					<a href="#">DIV</a>
+    					<a href="#">家居</a>
+    				</div>
+    			</div>
+    		</div>
+              <div class="life-footer">
+              	 <img src="img/banner_manhuamian.jpg" alt="">
+              </div>
+    	</div>
+    	<!-- 慢文艺 -->
+    	<div class="life fr tru">
+    		<div class="index-box">
+    			<div class="life-title clearfix">
+    				<h2><a href="#">慢文艺</a></h2>
+    				<div class="life-title-meau">
+    					<a href="#">手工</a><span>|</span>
+    					<a href="#">家居</a><span>|</span>
+    					<a href="#">美食</a><span>|</span>
+    					<a href="#">花草</a><span>|</span>
+    					<a href="#">创意</a><span>|</span>
+    					<a href="#">风尚</a><span>|</span>
+    					<a href="#">萌宠</a><span>|</span>
+    				</div>
+                     <a href="#" class="life-title-more">更多...</a>
+    			</div>
+    			<div class="index-content clearfix">
+    				<div class="index-content-left fl">
+    					<img src="img/index-img4.jpg" alt="">
+    					<p>家中摆一盆，大病小病全走光！赶紧收 </p>
+    				</div>
+    				<div class="index-content-right fr dota">
+                        <ul>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">你知道我为什么不主动找你吗</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">真正聪明的人，为什么从不去社交？</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">那些整天不用工作的女人有多爽</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">请放过自己，别放弃自己</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">那些极度自律的人，后来都怎么样了</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">如果男友越来越丑，你就爱对了人</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1" style="border-bottom: none;"><p class="special">你回复的微信消息，出卖了你的素养！</p></div>
+                            </li>
+                        </ul>
+    					<div class="index-content-more">
+    						<p>我有好的电影/ 书籍/音乐要推荐</p>
+    					</div>
+    				</div>
+    				<div class="life-nav">
+    					<span>TAG</span>
+    					<a href="#">慢生活</a>
+    					<a href="#">美食</a>
+    					<a href="#">创意</a>
+    					<a href="#">食谱</a>
+    					<a href="#">设计</a>
+    					<a href="#">居家</a>
+    					<a href="#">DIV</a>
+    					<a href="#">家居</a>
+    				</div>
+    			</div>
+    		</div>
+              <div class="life-footer">
+              	 <img src="img/banner_ad_03.jpg" alt="">
+              </div>
+    	</div>
+    	<!-- 慢专题 -->
+    	<div class="life fl tru">
+    		<div class="index-box">
+    			<div class="life-title clearfix">
+    				<h2><a href="#">慢专题</a></h2>
+                     <a href="#" class="life-title-more">更多...</a>
+    			</div>
+    			<div class="index-content clearfix">
+    				<div class="index-content-top fl">
+                       <a href="#"><img src="img/zhuanti.jpg" width="453"
+                       height="170" alt=""></a>            
+                    </div>
+                    <div class="index-content-bottom">
+                        <ul class="zhuanti-left fl">
+                            <li><a href="#">甜美的梦尚未结束</a></li>
+                            <li><a href="#">一起来过圣诞结吧~</a></li>
+                            <li><a href="#">未解之谜</a></li>
+                            <li><a href="#">初恋电影手册</a></li>
+                            <li><a href="#">少男少女恋爱事件簿</a></li>
+                        </ul>
+                        <ul class="zhuanti-right fr">
+                            <li><a href="#">花花世界</a></li>
+                            <li><a href="#">春雨霏霏</a></li>
+                            <li><a href="#">推理运算的法则</a></li>
+                            <li><a href="#">步入纯音乐的曼妙时光</a></li>
+                            <li><a href="#">慢时间甜品工房</a></li>
+                        </ul>
+                    </div>
+    			</div>
+    		</div>
+              <div class="life-footer">
+              	 <img src="img/banner_ad_05.jpg" alt="">
+              </div>
+    	</div>
+    	<!-- 慢集市 -->
+    	<div class="life fr tru">
+    		<div class="index-box">
+    			<div class="life-title clearfix">
+    				<h2><a href="#">慢集市</a></h2>
+                     <a href="#" class="life-title-more">更多...</a>
+    			</div>
+    			<div class="index-content clearfix" id="market">
+    				<ul class="market">
+                       <li><a href="#"><img src="img/shop1.jpg" width="132" height="132" alt=""></a>
+                       <a href="#"><p>对白 2015夏装新款女装半身裙休闲百搭通勤全棉纯色A字半身中裙子</p></a></li>
+                       <li><a href="#"><img src="img/shop2.jpg" width="132" height="132" alt=""></a>
+                       <a href="#"><p>对白 2015夏装新款女装半身裙休闲百搭通勤全棉纯色A字半身中裙子</p></a></li>
+                       <li><a href="#"><img src="img/shop3.jpg" width="132" height="132" alt=""></a>
+                       <a href="#"><p>对白 2015夏装新款女装半身裙休闲百搭通勤全棉纯色A字半身中裙子</p></a></li>
+                       <li><a href="#"><img src="img/shop4.jpg" width="132" height="132" alt=""></a>
+                       <a href="#"><p>对白 2015夏装新款女装半身裙休闲百搭通勤全棉纯色A字半身中裙子</p></a></li>
+                       <li><a href="#"><img src="img/shop5.jpg" width="132" height="132" alt=""></a>
+                       <a href="#"><p>对白 2015夏装新款女装半身裙休闲百搭通勤全棉纯色A字半身中裙子</p></a></li>
+                       <li><a href="#"><img src="img/shop6.jpg" width="132" height="132" alt=""></a>
+                       <a href="#"><p>对白 2015夏装新款女装半身裙休闲百搭通勤全棉纯色A字半身中裙子</p></a></li>            
+                    </ul>
+    			</div>
+    		</div>
+              <div class="life-footer">
+              	 <img src="img/banner_market.jpg" alt="">
+              </div>
+    	</div>
+    	<!-- 慢发现 -->
+    	<div class="life fl tru">
+    		<div class="index-box">
+    			<div class="life-title clearfix">
+    				<h2><a href="#">慢发现</a></h2>
+    				<div class="life-title-meau">
+    					<a href="#">手工</a><span>|</span>
+    					<a href="#">家居</a><span>|</span>
+    					<a href="#">美食</a><span>|</span>
+    					<a href="#">花草</a><span>|</span>
+    					<a href="#">创意</a><span>|</span>
+    					<a href="#">风尚</a><span>|</span>
+    					<a href="#">萌宠</a><span>|</span>
+    				</div>
+                     <a href="#" class="life-title-more">更多...</a>
+    			</div>
+    			<div class="index-content clearfix">
+    				<div class="index-content-left fl">
+    					<img src="img/index-img7.jpg" alt="">
+    					<p>家中摆一盆，大病小病全走光！赶紧收 </p>
+    				</div>
+    				<div class="index-content-right fr dota">
+    					<ul>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">你知道我为什么不主动找你吗</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">真正聪明的人，为什么从不去社交？</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">那些整天不用工作的女人有多爽</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">请放过自己，别放弃自己</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">那些极度自律的人，后来都怎么样了</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">如果男友越来越丑，你就爱对了人</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1" style="border-bottom: none;"><p class="special">你回复的微信消息，出卖了你的素养！</p></div>
+                            </li>
+                        </ul>
+    					<div class="index-content-more">
+    						<p>加盟时间传递，实现梦想</p>
+    					</div>
+    				</div>
+    				<div class="life-nav">
+    					<span>TAG</span>
+    					<a href="#">慢生活</a>
+    					<a href="#">美食</a>
+    					<a href="#">创意</a>
+    					<a href="#">食谱</a>
+    					<a href="#">设计</a>
+    					<a href="#">居家</a>
+    					<a href="#">DIV</a>
+    					<a href="#">家居</a>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	<!-- 慢活动 -->
+    	<div class="life fr tru">
+    		<div class="index-box">
+    			<div class="life-title clearfix">
+    				<h2><a href="#">慢活动</a></h2>
+    				<div class="life-title-meau">
+    					<a href="#">手工</a><span>|</span>
+    					<a href="#">家居</a><span>|</span>
+    					<a href="#">美食</a><span>|</span>
+    					<a href="#">花草</a><span>|</span>
+    					<a href="#">创意</a><span>|</span>
+    					<a href="#">风尚</a><span>|</span>
+    					<a href="#">萌宠</a><span>|</span>
+    				</div>
+                     <a href="#" class="life-title-more">更多...</a>
+    			</div>
+    			<div class="index-content clearfix">
+    				<div class="index-content-left fl">
+    					<img src="img/index-img8.jpg" alt="">
+    					<p>家中摆一盆，大病小病全走光！赶紧收 </p>
+    				</div>
+    				<div class="index-content-right fr dota">
+    					<ul>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">你知道我为什么不主动找你吗</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">真正聪明的人，为什么从不去社交？</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">那些整天不用工作的女人有多爽</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">请放过自己，别放弃自己</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">那些极度自律的人，后来都怎么样了</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">如果男友越来越丑，你就爱对了人</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1" style="border-bottom: none;"><p class="special">你回复的微信消息，出卖了你的素养！</p></div>
+                            </li>
+                        </ul>
+    					<div class="index-content-more">
+    						<p>加盟时间传递，实现梦想</p>
+    					</div>
+    				</div>
+    				<div class="life-nav">
+    					<span>TAG</span>
+    					<a href="#">慢生活</a>
+    					<a href="#">美食</a>
+    					<a href="#">创意</a>
+    					<a href="#">食谱</a>
+    					<a href="#">设计</a>
+    					<a href="#">居家</a>
+    					<a href="#">DIV</a>
+    					<a href="#">家居</a>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+
+        <!-- 慢应用 -->
+        <div class="life fl tru1">
+            <div class="index-box">
+                <div class="life-title clearfix" id="app-title">
+                    <h2><a href="#">慢应用& 慢时间新闻</a></h2>
+                </div>
+                <div class="index-content clearfix">
+                    <div class="index-content-left1 fl">
+                        <img src="img/jiaodian_img_71.jpg" alt="">
+                    </div>
+                    <div class="index-content-right fr dota">
+                        <ul>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">慢递</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">慢画面</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">慢下来</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">慢时间遇上ZAKER，擦出移动阅读</p></div>
+                            </li>
+                            <li>
+                                <div class="index-content-detail1"><p class="special">慢时间携手天虹宣扬环保与慢生活</p></div>
+                            </li>
+                        </ul> 
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- user -->
+        <div class="life fr tru1">
+            <div class="index-box">
+                <div class="life-title clearfix">
+                    <h2><a href="#">活跃用户</a></h2>
+                    <div class="life-title-meau">
+                        <a href="#">话题慢聊</a><span>|</span>
+                        <a href="#">活动推荐</a><span>|</span>
+                    </div>
+                     <a href="#" class="life-title-more">更多...</a>
+                </div>
+                <div class="index-content clearfix" id="index-content1">
+                    <ul>
+                        <li><a href="#"><img src="img/user1.jpg" width="40" height="40" alt=""></a>
+                            <a href="#">ANNY</a>
+                        </li>
+                        <li><a href="#"><img src="img/user2.jpg" width="40" height="40" alt=""></a>
+                            <a href="#">七月</a>
+                        </li>
+                        <li><a href="#"><img src="img/user3.jpg" width="40" height="40" alt=""></a>
+                            <a href="#">陈薇薇</a>
+                        </li>
+                        <li><a href="#"><img src="img/user4.jpg" width="40" height="40" alt=""></a>
+                            <a href="#">舞醉秋阳</a>
+                        </li>
+                        <li><a href="#"><img src="img/user5.jpg" width="40" height="40" alt=""></a>
+                            <a href="#">安雪晴</a>
+                        </li>
+                        <li><a href="#"><img src="img/user6.jpg" width="40" height="40" alt=""></a>
+                            <a href="#">小曼</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- footer上部 -->
+    	<div class="wz-bg fl">
+    	    <div class="wz fl">
+    		    放下浮躁，放下烦恼，体验
+    		    <strong style="color: #92ca45;">慢生活</strong>
+    		    <p>在这个喧嚣的城市中，你是否也在寻找那片属于你自己的宁静？慢下来，和我们一起悠享人生，品味慢生活。</p>
+    	    </div>
+    	    <div class="hz">
+    	    	<span>腾讯微博</span>
+    	    	<br>
+    	    	<span>新浪微博</span>
+    	    </div>
+        </div>
+    </div>
+    <!-- go -->
+        <div class="go">
+            <a href="#top" class="gotop"></a>
+            <a href="#" class="fankui"></a>
+            <a href="#" class="gobottom"></a>
+        </div>
+    <!-- footer -->
+    <div class="footer fl clearfix">
+    	<div class="foot center-box clearfix">
+            <ul class="understand">
+                <li><a href="#"><b>了解慢时间</b></a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">使用协议</a></li>
+                <li><a href="#">商务合作</a></li>
+            </ul>
+            <ul>
+                <li><b>用户中心</b></li>
+                <li><a href="#">意见反馈</a></li>
+                <li><a href="#">常见问题</a></li>
+                <li><a href="#">新手上路</a></li>
+            </ul>
+            <ul>
+                <li><b>微信二维码</b></li>
+                <li><img src="img/weixin.png" alt=""></li>
+            </ul>
+            <ul>
+                <li><b>关注我们</b></li>
+                <li><a href="#">新浪微博</a></li>
+                <li><a href="#">腾讯微博</a></li>
+                <li><a href="#">豆瓣小站</a></li>
+            </ul>
+            <ul class="slowtime">
+                <li><b>慢时间</b></li>
+                <li><a href="#">手机版</a></li>
+                <li><a href="#">iphone客户端</a></li>
+                <li><a href="#">安卓客户端</a></li>
+            </ul>
+            <br>
+            <div class="foot-menu ">
+            <span class="tru2">合作网站：</span>
+            <span><a href="#">时间慢递</a></span>
+            <span><a href="#">ZAKER</a></span>
+            <span><a href="#">hao123</a></span>
+            <span><a href="#">360安全网站导航</a></span>
+            <span><a href="#">淘网址</a></span>
+            <span><a href="#">金山网址导航</a></span>
+            <span><a href="#">1616个人门户</a></span>
+            </div>
+            <div class="foot-menu down">
+            <span class="tru2">友情链接：</span>
+            <span><a href="#">慢生活</a></span>
+            <span><a href="#">米悠本色</a></span>
+            <span><a href="#">慢斯卡</a></span>
+            <span><a href="#">插画设计</a></span>
+            <span><a href="#">白茶</a></span>
+            <span><a href="#">邻居的耳朵</a></span>
+            <span><a href="#">秀设计</a></span>
+            <span><a href="#">多肉植物</a></span>
+            <span><a href="#">江门列表网</a></span>
+            <span><a href="#">悦旅行</a></span>
+            <span><a href="#">买狗网</a></span>
+            <span><a href="#">菁华时尚生活</a></span>
+            <span><a href="#">更多链接</a></span>
+            </div>
+            <div class="bottom">
+                <p>Copyright © 2011-2017 慢时间|
+                <a href="#">慢生活</a>
+                社区，小清新网站
+                <a href="#">粤ICP备11106070号</a>
+                <a href="#">免责声明</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

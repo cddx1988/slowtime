@@ -1,0 +1,138 @@
+body{
+	height: 828px;
+}
+.register{
+	width: 1000px;
+	background-color: #fff;
+	/*height: 200px;*/
+	border:1px solid #cccccc;
+}
+.register h1{
+	padding: 10px 25px;
+	font-size: 24px;
+	font-weight: normal;
+	border-bottom: 1px dotted #cccccc;
+	height: 35px;
+}
+.register-title-l{
+	color: #94c945;
+	margin-left: 3px;
+}
+.register-title-r{
+	font-size: 15px;
+}
+.register-title-r a{
+	color: #94c945;
+}
+.register form{
+	margin: 60px auto 10px;
+}
+.form{
+	width: 500px;
+	height: 361px;
+}
+.form li{
+	width: 750px;
+	height: 57px;
+}
+.form label{
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 20px;
+	text-align: right;
+	width: 100px;
+}
+
+ input{
+	border: #e3e3e3 solid 1px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #666666;
+    padding-left: 5px;
+    width: 250px;
+} 
+form>ul>li:nth-child(4)>label{
+    margin-right: 0px;
+}
+form>ul>li:nth-child(4)>input{
+	width: 125px;
+}
+
+.submit-btn{
+	background: none repeat scroll 0 0 #94c945;
+    border: 1px solid #5F9E20;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    height: 36px;
+    margin-left: 110px;
+    margin-top: 8px;
+    width: 160px;
+    font-size: 14px;
+}
+a .blue{
+	color: #000381;
+	text-decoration: underline;
+}
+.other-list{
+	width: 500px;
+	height: 19px;
+	margin-left: 110px;
+}
+.other-list span{
+	float: left;
+}
+.other-list a{
+    height: 17px;
+    width: 28px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+}
+.other-list .sina{
+	background: url(../img/btn-other.gif) no-repeat scroll 0 0 transparent;
+}
+.other-list .qq{
+	background: url(../img/btn-other.gif) no-repeat scroll -35px 0 transparent;
+}
+.footer{
+	margin-top: 100px;
+}
+
+/*登录*/
+.login-remind{
+	display: block;
+	font-size: 14px;
+	color: #CDD5E2;
+	margin-left: 108px;
+	margin-top: -17px;
+    padding: 10px 0;
+}
+.form2{
+	width: 500px;
+	height: 305px;
+}
+.login-in{
+	height: 113px;
+	background-color: #fbfbfa;
+    border-top: #dadada dashed 1px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: "微软雅黑";
+}
+.login-in input{
+	width: 170px;
+	height: 42px;
+	background-color: #F5F5F5;
+	color: #DD621F;
+	font-weight: bold;
+}
+.footer a{
+	color: #666666;
+}

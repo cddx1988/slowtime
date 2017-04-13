@@ -1,0 +1,76 @@
+body{
+	height: 1767px;
+}
+.breadcrumb{
+	width: 1000px;
+	height: 20px;
+	line-height: 20px;
+	margin: 10px auto 5px;
+	font-size: 14px;
+	text-align: left;
+}
+.breadcrumb a{
+    float: left;
+    color: #95ca48;
+}
+.breadcrumb span{
+	float: left;
+	font-size: 12px;
+	color: #999999;
+}
+.found{
+	color: #9eb005;
+	width: 1000px;
+	background-color: #fff;
+	/*height: 5000px;*/
+	margin-bottom: 20px;
+}
+.found-content{
+	margin-top: 50px;
+}
+.content-title{
+	margin-left: 28px;
+	height: 38px;
+	width: 940px;
+	background: url(../find-img/title_bg.png) 0 -10px no-repeat;
+}
+.content-title h1{
+	float: left;
+    font:16px/24px 微软雅黑;
+}
+.content-title p{
+	font:14px/24px 微软雅黑; 
+	float: right;
+}
+.found-item{
+	margin: 8px 0 40px 17px;
+}
+.found-item li{
+	width: 460px;
+	height: 173px;
+	border:1px solid #e0dede;
+	float: left;
+	margin: 0 10px;
+	overflow: hidden;
+}
+.found-item .left-part{
+	margin: 27.5px ;
+}
+.found-item .right-part{
+	margin: 27.5px 0;
+}
+.found-item>li>.right-part>h6>a{
+    color: #808080;
+    font: 14px/28px 微软雅黑;
+    font-weight: bold;
+}
+.found-item>li>.right-part>h6>a:hover{
+	text-decoration: underline;
+}
+.found-item .right-part p{
+	width: 225px;
+	color: #7D7D7D;
+}
+.found-more{
+	margin-top: 20px;
+}
