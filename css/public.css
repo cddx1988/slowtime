@@ -2,7 +2,7 @@ body{
 	height: 6663px;
 }
 .public-banner{
-	width: 1920px;
+	width: 100%;
 	height: 513px;
 	background: url(../img/gongyi-banner.jpg) 0 0 no-repeat;
 	margin-top: 10px;
@@ -10,7 +10,7 @@ body{
 	background-size: contain;
 }
 .public-main{
-	width: 1000px;
+	width: 100%;
 	/*height: 8000px;*/
 	background-color: #fff;
 	padding: 0 5px;
