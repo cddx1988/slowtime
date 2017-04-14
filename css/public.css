@@ -2,15 +2,21 @@ body{
 	height: 6663px;
 }
 .public-banner{
-	width: 100%;
+	/*width: 100%;
 	height: 513px;
 	background: url(../img/gongyi-banner.jpg) 0 0 no-repeat;
 	margin-top: 10px;
-	-webkit-background-size: contain;
-	background-size: contain;
+	-webkit-background-size: 100% 513px;
+	background-size: 100% 513px;*/
+	width: 1920px;
+    height: 513px;
+    position: relative;
+    left: 50%;
+    margin-left: -960px;
+    background: url(../img/gongyi-banner.jpg) center center no-repeat;
 }
 .public-main{
-	width: 100%;
+	width: 1000px;
 	/*height: 8000px;*/
 	background-color: #fff;
 	padding: 0 5px;

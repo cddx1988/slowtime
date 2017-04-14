@@ -233,6 +233,7 @@ body{
     position: absolute;
     bottom: 0;
     border: 1px solid #DCDCDC;
+    background-color: #fff;
 }
 .banner-box-title{
 	height: 36px;
@@ -251,6 +252,9 @@ body{
 	border-bottom: none;
 	margin-right: -10px;
 	position: absolute;
+}
+#banner-items a{
+	color: #666666;
 }
 #topic{
 	left: 0;
@@ -293,6 +297,7 @@ body{
 	width: 495px;
 	height: 416px;
 	border:1px solid #DCDCDC;
+	background-color: #fff;
 }
 .life-title{
 	background: url(../img/index_title_bg.gif);
